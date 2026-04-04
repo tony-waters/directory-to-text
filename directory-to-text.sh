@@ -28,7 +28,7 @@ Notes for reviewer:
 EOF
 
 # ------------------------------------------------------------------------------
-# STEP 2: Find all relevant files
+# STEP 2: Find all relevant files (and exclude others)
 #
 # Key points:
 # - Use -print0 to safely handle spaces/newlines in filenames
