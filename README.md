@@ -12,6 +12,8 @@ This script will dump file contents into a single document. Be careful what you 
 
 ### Do NOT include
 
+There are some obvious and less obvious things to not include. Here is a limited list:
+
 - Secrets (API keys, tokens, passwords)
 - `.env` files or credentials
 - Private keys or certificates
@@ -34,7 +36,7 @@ This script will dump file contents into a single document. Be careful what you 
   - Use a sanitised version of your repo if unsure
   - Prefer dumping only specific directories (e.g. src, helm, terraform)
 
-## What it does
+## What the script does
 
 - Scans directories you specify
 - Excludes junk (`.git`, `target`, `node_modules`, etc.)
