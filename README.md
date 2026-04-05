@@ -4,6 +4,8 @@ Flatten selected parts of a codebase into a single Markdown file for review or L
 
 ---
 
+This script is designed to be altered to your own needs. Currently it works for my Java/Helm/Terraform needs.
+
 ## ⚠️ Security & Privacy
 
 This script will dump file contents into a single document. Be careful what you include, and where you pass it, and take advice if you are unsure about any of this stuff.
