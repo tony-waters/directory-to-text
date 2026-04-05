@@ -50,14 +50,14 @@ Output: `repo_dump_for_llm.md`
 ## Usage
 
 ```bash
-./dump-repo.sh <dir1> [dir2 ...]    
+./directory-to-text.sh <dir1> [dir2 ...]    
 
 ## Examples
 
 ```bash
-./dump-repo.sh src/main/java src/test/java
-./dump-repo.sh helm terraform
-./dump-repo.sh src pom.xml
+./directory-to-text.sh src/main/java src/test/java
+./directory-to-text.sh helm terraform
+./directory-to-text.sh src pom.xml
 ```
 
 Note that overlapping paths can duplicate files.
