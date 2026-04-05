@@ -61,6 +61,11 @@ find "$@" -type f \
   ! -name "*.pdf" \
   ! -name "*.iml" \
   ! -name "*.log" \
+  ! -name "*.tfstate" \
+  ! -name "*.backup" \
+  ! -name "*.lock.hcl" \
+  ! -path "*/.terraform/*" \
+  ! -name "*.md" \
   -print0 |
 sort -z |
 while IFS= read -r -d '' file; do
