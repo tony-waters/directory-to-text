@@ -32,9 +32,9 @@ There are some obvious and less obvious things to not include. Here is a limited
   ```bash
   ! -name "*.env" ! -name "*.pem" ! -name "*.key"
   ```
-  - Review the output file before sharing
-  - Use a sanitised version of your repo if unsure
-  - Prefer dumping only specific directories (e.g. src, helm, terraform)
+- Review the output file before sharing
+- Use a sanitised version of your repo if unsure
+- Prefer dumping only specific directories (e.g. src, helm, terraform)
 
 ## What the script does
 
@@ -62,7 +62,7 @@ Output: `repo_dump_for_llm.md`
 ./directory-to-text.sh src pom.xml
 ```
 
-Note that overlapping paths can duplicate files.
+Note that overlapping paths can cause duplicate files in the final text file.
 
 ## Disclaimer
 
