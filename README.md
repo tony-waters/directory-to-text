@@ -4,7 +4,7 @@ Flatten selected parts of a codebase into a single Markdown file for review or L
 
 ---
 
-This script is designed to be altered to your own needs. Currently it works for my Java/Helm/Terraform needs.
+This script is designed to be altered to your own needs. Currently it works for my Java/Helm/Terraform development needs.
 
 ## ⚠️ Security & Privacy
 
