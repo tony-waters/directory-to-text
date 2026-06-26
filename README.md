@@ -35,6 +35,7 @@ There are some obvious and less obvious things to not include. Here is a limited
 - Review the output file before sharing
 - Use a sanitised version of your repo if unsure
 - Prefer dumping only specific directories (e.g. src, helm, terraform)
+- Please Do Your Own Research here
 
 ## What the script does
 
