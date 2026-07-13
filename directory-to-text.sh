@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-OUTPUT="repo_dump_for_llm.md"
+OUTPUT="repo_dump.md"
 
 # ------------------------------------------------------------------------------
 # INPUT VALIDATION
